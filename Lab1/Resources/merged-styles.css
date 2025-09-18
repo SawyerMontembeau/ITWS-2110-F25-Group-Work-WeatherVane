@@ -502,6 +502,21 @@ body {
   flex: 1;
 }
 
+.montes3-rpi-edu a,
+.montes3-rpi-edu a:visited,
+.montes3-rpi-edu a:hover,
+.montes3-rpi-edu a:active {
+  color: inherit; 
+  text-decoration: underline;
+}
+.rensselaer-polytechnic-institute a,
+.rensselaer-polytechnic-institute a:visited,
+.rensselaer-polytechnic-institute a:hover,
+.rensselaer-polytechnic-institute a:active {
+  color: inherit; 
+  text-decoration:underline;
+}
+
 a {
   padding: 10px;
   text-decoration: none; 

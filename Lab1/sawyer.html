@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lacquer&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class="main">
+   <div class="main vcard">
   <div class="picture-stack" style="
       background: url(Resources/dark-souls-larger.png) center;
       background-size: cover;
@@ -29,11 +29,11 @@
 
     <div class="hero">
       <div class="member-number">
-        <div class="weather-vanes-title">I</div>
+        <div class="weather-vanes-title">V</div>
       </div>
       <div class="headshot-and-name">
-        <img src="Resources/Sawyer.jpeg" style="aspect-ratio: inherit;" height="300px" />
-        <div class="weather-vanes-title2">Sawyer Montembeau</div>
+        <img src="Resources/Sawyer.jpeg" style="aspect-ratio: inherit;" height="300" alt="Sawyer Montembeau"/>
+        <div class="weather-vanes-title2 fn">Sawyer Montembeau</div>
       </div>
     </div>
   </div>
@@ -45,8 +45,11 @@
           <div class="address">ADDRESS ∘</div>
         </div>
         <div class="description">
-          <div class="desc">
-            41 Fletcher St, Kennebunk ME 04043
+          <div class="desc adr">
+            <span class="street-address">41 Fletcher St</span>,
+            <span class="locality">Kennebunk</span>
+            <span class="region">ME</span>
+            <span class="postal-code">04043</span>
           </div>
         </div>
       </div>
@@ -55,7 +58,7 @@
           <div class="phone">PHONE ∘</div>
         </div>
         <div class="description">
-          <div class="_207-337-1602">(207) 337-1602</div>
+          <div class="_207-337-1602 tel">(207) 337-1602</div>
         </div>
       </div>
       <div class="text">
@@ -63,15 +66,13 @@
           <div class="email">EMAIL ∘</div>
         </div>
         <div class="description">
-          <div class="montes3-rpi-edu">montes3@rpi.edu</div>
+          <div class="montes3-rpi-edu"><a href="mailto:montes3@rpi.edu" class="email">montes3@rpi.edu</a></div>
         </div>
       </div>
     </div>
     <div class="introduction">INTRODUCTION</div>
     <div class="introduction-statement">
-      <div
-        class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-dolore-eu-fugiat-nulla-pariatur-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-qui-officia-deserunt-mollit-anim-id-est-laborum"
-      >
+      <div class="introduction-statement-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -88,7 +89,7 @@
           <div class="secondary-school">SECONDARY SCHOOL ∘</div>
         </div>
         <div class="description">
-          <div class="Kennebunk High School">
+          <div class="kennebunk-high-school">
             Kennebunk High School
           </div>
         </div>
@@ -99,7 +100,7 @@
         </div>
         <div class="description">
           <div class="rensselaer-polytechnic-institute">
-            Rensselaer Polytechnic Institute
+            <a href="https://www.rpi.edu/">Rensselaer Polytechnic Institute</a>
           </div>
         </div>
       </div>
@@ -109,7 +110,7 @@
         </div>
         <div class="description">
           <div class="majors">
-            Dual B.S. in Computer Science and Information Technology & Web Science 
+            B.S. in Computer Science and Information Technology & Web Science 
           </div>
         </div>
       </div>
@@ -118,29 +119,76 @@
           <div class="dates">DATES</div>
         </div>
         <div class="description">
-          <div class="august-2022-may-2026">August 2023 - May 2027</div>
+          <div class="start-date-end-date">August 2023 - May 2027</div>
         </div>
       </div>
     </div>
     <div class="projects-accomplishments">PROJECTS &amp; ACCOMPLISHMENTS</div>
-    <div class="projects-accomplishments2">
-      <div
-        class="description"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+    <div class="contact-info">
+      <div class="text">
+        <div class="title">
+          <div class="project">
+            Rensselaer Center for Open Source - Shard Hero | Developer
+          </div>
+        </div>
+        <div class="description">
+          <div class="start-date-end-date">Godot Engine | GDScript | Git & GitHub | Aseprite</div>
+        </div>
+      </div>
+      <div class="work-exp-details">
+        <div class = info>
+          <ul>
+            <li>Developed a 2D Metroidvania game along with 5 team members, creating the core player mechanics and all original character sprites/animations using Aseprite</li>
+            <li>Engineered distinct AI behaviors for 2 enemy types, implementing a patrolling enemy with wall/edge detection and a reactive leaping enemy using ray-casting for player detection</li>
+            <li>Collaborated with multiple developers using Git, managing team contributions and ensuring code quality through a workflow of branching, pull requests, and code reviews on GitHub</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text">
+        <div class="title">
+          <div class="project">
+            Intro to ITWS - ClassInsight | Fullstack Developer
+          </div>
+        </div>
+        <div class="description">
+          <div class="start-date-end-date">HTML | CSS | JavaScript | PHP | MySQL | Git & Github</div>
+        </div>
+      </div>
+      <div class="work-exp-details">
+        <div class = info>
+          <ul>
+            <li>Managed team collaboration and version control using Git, employing branching and issue tracking methodologies to streamline development</li>
+            <li>Used Javascript, JQuery, and AJAX to build a case-insensitive search as well as filter through a static database of RPI classes</li>
+            <li>Created a javascript program that used local storage to allow for users to bookmark classes</li>
+            <li>Developed a full-stack review system by implementing a MySQL database and PHP backend, allowing users to submit, view, and rate class reviews</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text">
+        <div class="title">
+          <div class="project">
+            Personal Project - Personal Website | Fullstack Developer
+          </div>
+        </div>
+        <div class="description">
+          <div class="start-date-end-date">HTML | CSS | JavaScript | PHP | MySQL</div>
+        </div>
+      </div>
+      <div class="work-exp-details">
+        <div class = info>
+          <ul>
+            <li>Designed and developed a personal website to showcase my portfolio, projects, and resume using HTML, CSS, and JavaScript for the front-end</li>
+            <li>Implemented a PHP backend to handle form submissions and interact with a MySQL database for storing user messages</li>
+            <li>Ensured responsive design principles were applied, making the website accessible and visually appealing across various devices and screen sizes</li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="work-experience">WORK EXPERIENCE</div>
     <div class="contact-info">
       <div class="text">
         <div class="title">
-          <div class="work-experience-1-include-job-title">
+          <div class="work-experience-1">
             Kennebunkport Parks and Recreation - Lead Summer Camp Counselor
           </div>
         </div>
@@ -150,82 +198,68 @@
       </div>
       <div class="work-exp-details">
         <div class = info>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          <ul>
+            <li>Demonstrated leadership by planning and executing daily activities for groups of campers, ensuring a safe and productive environment</li>
+            <li>Coordinated camp schedules and activities, ensuring they aligned with camp goals and objectives</li>
+            <li>Adapted quickly to changing circumstances while maintaining a calm demeanor</li>
+            <li>Collaborated within a team of counselors to coordinate schedules and resolve unexpected issues, fostering positive and effective team dynamics</li>
+          </ul>
         </div>
       </div>
       <div class="text">
         <div class="title">
-          <div class="work-experience-2-include-job-title">
-            WORK EXPERIENCE #2 (Include Job Title)
+          <div class="work-experience-2">
+            Kennebunkport Parks and Recreation - After School Care Assistant
           </div>
         </div>
         <div class="description">
-          <div class="start-date-end-date">Start Date - End Date</div>
+          <div class="start-date-end-date">September 2021 - June 2024</div>
         </div>
       </div>
       <div class="work-exp-details">
         <div class = info>
-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          <ul>
+            <li>Supervised and ensured the safety of children in an after-school program, maintaining a secure and engaging environment</li>
+            <li>Planned and facilitated educational and recreational activities that promoted social, emotional, and physical development</li>
+            <li>Communicated effectively with parents and guardians regarding their children's progress and any concerns</li>
+            <li>Worked collaboratively with a team of counselors to create a cohesive and supportive atmosphere for all participants</li>
+          </ul>
         </div>
       </div>
       <div class="text">
         <div class="title">
-          <div class="work-experience-3-include-job-title">
-            WORK EXPERIENCE #3 (Include Job Title)
+          <div class="work-experience-3">
+            Big Tech Company - Software Engineering Intern 
           </div>
         </div>
         <div class="description">
-          <div class="start-date-end-date">Start Date - End Date</div>
+          <div class="start-date-end-date">June 2025 - August 2025</div>
         </div>
       </div>
       <div class="work-exp-details">
         <div class = info>
-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+            <ul>
+                <li>Worked on a team to develop and maintain web applications, contributing to both front-end and back-end development tasks</li>
+                <li>Participated in code reviews and collaborated with senior developers to ensure code quality and adherence to best practices</li>
+                <li>Assisted in the design and implementation of new features, utilizing technologies such as React, Node.js, and SQL databases</li>
+                <li>Gained experience in agile development methodologies, attending daily stand-ups and sprint planning sessions</li>
+            </ul>
         </div>
       </div>
     </div>
     <div class="skills">SKILLS</div>
     <div class="skills2">
-      <div
-        class="skill-1-skill-2-skill-3-skill-4-skill-5-skill-6-skill-7-skill-8"
-      >
-        <ul
-          class="skill-1-skill-2-skill-3-skill-4-skill-5-skill-6-skill-7-skill-8-span"
-        >
-          <li>Skill #1</li>
-          <li>Skill #2</li>
-          <li>Skill #3</li>
-          <li>Skill #4</li>
-          <li>Skill #5</li>
-          <li>Skill #6</li>
-          <li>Skill #7</li>
-          <li>Skill #8</li>
+      <div class="skill-div">
+        <ul class="skill-list">
+          <li><b>Languages:</b> C++, C#, C, Java, Python, R-Script, HTML, Javascript, SQL, GDScript</li>
+          <li><b>Databases:</b> MySQL, PHPmyAdmin</li>
+          <li><b>Methodologies:</b> Agile, Scrum</li>
+          <li><b>Development Tools:</b> Git, GitHub, Azure, AWS</li>
         </ul>
       </div>
     </div>
   </div>
 </div>
-
 
 </body>
 </html>
