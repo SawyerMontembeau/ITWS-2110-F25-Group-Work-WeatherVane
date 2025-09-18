@@ -297,7 +297,6 @@
   position: relative;
   overflow: hidden;
   color: #c7dcfc;
-  text-align: justified;
   font-family: 'Cormorant Garamond', serif;
   font-size: 30px;
   font-weight: 700;
@@ -315,7 +314,6 @@
   position: relative;
   overflow: hidden;
   color: #c7dcfc;
-  text-align: justified;
   font-family: 'Cormorant Garamond', serif;
   font-size: 30px;
   font-weight: 700;
@@ -515,6 +513,12 @@ body {
 .rensselaer-polytechnic-institute a:active {
   color: inherit; 
   text-decoration:underline;
+}
+.circular-image {
+  border-radius: 50%; 
+  width: 300px;      
+  height: 300px;     
+  object-fit: cover; 
 }
 
 a {
