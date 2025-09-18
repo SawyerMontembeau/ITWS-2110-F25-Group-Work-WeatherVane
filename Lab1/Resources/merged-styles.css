@@ -538,7 +538,7 @@ body {
 
 .member-card.visible {
   display: block; 
-  opacity: 1; /
+  opacity: 1;
 }
 
 .member-card img {
