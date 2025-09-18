@@ -13,3 +13,5 @@ On several occassions I did not remember exact HTML syntax so i had to refer to:
 - w3schools.com 
 
 These references were mostly for syntax but I also used w3 schools for a bit of css styling help, such as making a link not be blue/purple and inheriting the color of its larger div
+
+For the little javascript i did(member box on hover), i relied mostly on w3schools as well as my intro to ITWS term project.
