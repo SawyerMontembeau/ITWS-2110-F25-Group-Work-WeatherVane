@@ -648,3 +648,11 @@ h1 {
   text-decoration:underline;
 }
 
+.project a,
+.project a:visited,
+.project a:hover,
+.project a:active {
+  color: inherit; 
+  text-decoration:underline;
+}
+
