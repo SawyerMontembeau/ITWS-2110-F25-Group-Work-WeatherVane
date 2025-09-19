@@ -302,6 +302,54 @@
   font-weight: 700;
 }
 
+.work-exp-details-ryan {
+  padding: 10px 25px 10px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  color: #c7dcfc;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.work-experience-1-include-job-title-ryan {
+  color: #dcb700
+}
+
+.skills2-ryan {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  color: #c7dcfc;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+
+.em-high-school a,
+.em-high-school a:visited,
+.em-high-school a:hover,
+.em-high-school a:active {
+  color: inherit; 
+  text-decoration:underline;
+}
+
 .skills2 {
   padding: 10px;
   display: flex;
@@ -507,6 +555,15 @@ body {
   color: inherit; 
   text-decoration: underline;
 }
+
+.email a,
+.email a:visited,
+.email a:hover,
+.email a:active {
+  color: inherit; 
+  text-decoration: underline;
+}
+
 .rensselaer-polytechnic-institute a,
 .rensselaer-polytechnic-institute a:visited,
 .rensselaer-polytechnic-institute a:hover,
