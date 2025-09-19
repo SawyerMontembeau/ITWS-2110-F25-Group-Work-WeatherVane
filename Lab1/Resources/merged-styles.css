@@ -567,7 +567,8 @@ body {
 .rensselaer-polytechnic-institute a,
 .rensselaer-polytechnic-institute a:visited,
 .rensselaer-polytechnic-institute a:hover,
-.rensselaer-polytechnic-institute a:active {
+.rensselaer-polytechnic-institute a:active,
+.secondary-school {
   color: inherit; 
   text-decoration:underline;
 }
