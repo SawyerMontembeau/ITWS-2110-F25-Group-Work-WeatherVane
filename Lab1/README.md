@@ -39,7 +39,7 @@ MJ:
 
 As with my other groupmates, I used the HTML / CSS template Kat created and filled it in with my own information. Some of this info was lifted from the resume I created for Intro to ITWS. 
 
-Briefly I ran into an issue regarding several links (my email, the link for my high school)being the default blue instead of the light blue consistent with our website. I resolved this by creating a class for my high school div and having it inherit the text color of that div. My email had its own class as well, but I switched to simply using the "email" class at the time of writing this. Perhaps merging the high school classes into a single class would also be a good idea?
+Briefly I ran into an issue regarding several links (my email, the link for my high school) being the default blue instead of the light blue consistent with our website. I resolved this by creating a class for my high school div and having it inherit the text color of that div. My email had its own class as well, but I switched to simply using the "email" class at the time of writing this. Perhaps merging the high school classes into a single class would also be a good idea?
 
 Resources:
     - This explaination on microformats: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Microformats
