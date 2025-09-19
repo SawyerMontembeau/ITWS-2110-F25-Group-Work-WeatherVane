@@ -182,7 +182,7 @@
   position: relative;
 }
 
-.previous-works2, .portfolio-information {
+.previous-works2, .portfolio-information, .contact-information-start {
   padding: 100px 50px 50px 50px;
   display: flex;
   flex-direction: column;
@@ -227,7 +227,7 @@
   overflow: hidden;
 }
 
-.title {
+.title, .header {
   padding: 10px;
   display: flex;
   flex-direction: row;
