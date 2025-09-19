@@ -640,3 +640,11 @@ h1 {
   flex: 1;
 }
 
+.bths-high-school a,
+.bths-high-school a:visited,
+.bths-high-school a:hover,
+.bths-high-school a:active {
+  color: inherit; 
+  text-decoration:underline;
+}
+
