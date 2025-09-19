@@ -1,6 +1,6 @@
 # ITWS-2110-F25-WeatherVane-Lab-1
 
-This lab contains both the group and individual portfolio sites that were created for lab 1 of ITWS-2110
+This lab contains both the group and individual portfolio sites that were created for lab 1 of ITWS-2110.
 
 Work Log:
 -----------------------------------------------
@@ -32,3 +32,14 @@ JavaScript Hover: The cool hover effect for team members broke because I had a t
 
 Resources I used - w3schools: Quick refreshers on HTML list syntax and how to remove link styling.
 MDN Web Docs: To understand how data attributes work.
+
+-----------------------------------------------
+
+MJ: 
+
+As with my other groupmates, I used the HTML / CSS template Kat created and filled it in with my own information. Some of this info was lifted from the resume I created for Intro to ITWS. 
+
+Briefly I ran into an issue regarding several links (my email, the link for my high school)being the default blue instead of the light blue consistent with our website. I resolved this by creating a class for my high school div and having it inherit the text color of that div. My email had its own class as well, but I switched to simply using the "email" class at the time of writing this. Perhaps merging the high school classes into a single class would also be a good idea?
+
+Resources:
+    - This explaination on microformats: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Microformats
