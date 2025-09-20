@@ -43,6 +43,12 @@ Briefly I ran into an issue regarding several links (my email, the link for my h
 
 Resources:
     - This explaination on microformats: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Microformats
+
+    - These job positions, for filling out my experience section (I have not worked at any of these places):
+        - https://www.linkedin.com/jobs/view/principal-cloud-threat-hunter-at-verizon-4295466219
+        - https://www.linkedin.com/jobs/view/senior-tech-lead-c++-ecosystem-safety-at-google-4286821602
+        - https://www.linkedin.com/jobs/view/4271539037
+
 -----------------------------------------------
 
 Kat: 
