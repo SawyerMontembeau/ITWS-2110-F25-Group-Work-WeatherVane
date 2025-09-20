@@ -41,6 +41,8 @@ As with my other groupmates, I used the HTML / CSS template Kat created and fill
 
 Briefly I ran into an issue regarding several links (my email, the link for my high school) being the default blue instead of the light blue consistent with our website. I resolved this by creating a class for my high school div and having it inherit the text color of that div. My email had its own class as well, but I switched to simply using the "email" class at the time of writing this. Perhaps merging the high school classes into a single class would also be a good idea?
 
+I also realized that the image filenames as referenced in the members header were case sensitive, and would not be visible upon hover unless the filename exactly matches the filename in the Resources folder; I've since fixed this.
+
 Resources:
     - This explaination on microformats: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Microformats
 
