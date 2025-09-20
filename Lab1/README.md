@@ -57,3 +57,30 @@ Resources:
 - How do I right align div elements? (Stack Overflow) - https://stackoverflow.com/questions/7693224/how-do-i-right-align-div-elements
 - HTML id Attribute (w3schools) - https://www.w3schools.com/html/html_id.asp
 - hCard 1.0 (Microformats Wiki) - https://microformats.org/wiki/hcard
+-----------------------------------------------
+
+Ryan:
+
+For this lab, I mainly used the HTML and CSS format that Kat put in first, and then filled out my personal page according to how the rest of the site was structured. I also took inspiration from my resume and other Labs from Intro to ITWS to fully complete the project. 
+
+I ran into one specific issue of getting the hCard microformatting working for my page. Initially, I had two blocks of code; One for my name and picture, and the other for my contact information, and so I ended up making 2 vcard classes, which I later figured out would not work. So I had to combine the two blocks of code (2 divs) in order to fully get it working through a parser. The parser I used is found here: https://pin13.net/mf2/, and it seemed to parse properly afterwards. 
+
+Another constant issue I kept encountering is some of my projects & accomplishments items not aligning properly on the page, and to fix this, I used a combination of gap, align-items, display: flex, position: relative, padding, and margin-left/right.
+
+The resources I used were not for any structural logic, mostly HTML/CSS refresher syntax.
+
+Resources:
+
+https://www.w3schools.com/cssref/css3_pr_flex-shrink.php
+
+https://www.w3schools.com/css/css_overflow.asp
+
+https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php
+
+https://www.w3schools.com/css/css_align.asp
+
+https://www.w3schools.com/css/css3_box-sizing.asp
+
+https://microformats.org/wiki/hcard
+
+https://microformats.org/wiki/h-card
