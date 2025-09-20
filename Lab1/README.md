@@ -43,3 +43,17 @@ Briefly I ran into an issue regarding several links (my email, the link for my h
 
 Resources:
     - This explaination on microformats: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Microformats
+-----------------------------------------------
+
+Kat: 
+
+For this lab, I first started by drafting a design template for the main landing page / individual portfolio pages in Figma. Then, I used one of Figma's built-in plugins to convert this design directly into its HTML/CSS equivalent, bringing it into our index.html file and making tweaks as necessary. Although using the conversion plugin does save quite a bit of time, the only downside is that some of the class names are extremely impractical, and certain classes are completely redundant. Consequently, I spent a lot of time correcting the CSS.
+
+Another small issue I encountered was a file becomimg corrupted/unmutable when I tried to add it to my local repo. Fortunately, I was able to resolve it by running the "rm -rf" command in a Linux terminal. To avoid this in the future, I will ensure that I only add files to my local repo via the File Explorer (as opposed to dragging it straight into VSCode, which is what produced the issue).
+
+Fortunately, debugging the CSS/HTML formatting was my only major roadblock/timesink. When I handed off these templates to my teammates, they adopted them for their own portfolio pages as appropriate. With respect to the microformat portion of this lab, I found the resource that MJ linked quite useful, and used this site to guide my implementation of hCard on my page. Additionally, to ensure consistency in theming across our respective portfolio pages, I tried to ensure that my HTML formatting/hCard microformat usage was similar to my teammates.
+
+Resources:
+- How do I right align div elements? (Stack Overflow) - https://stackoverflow.com/questions/7693224/how-do-i-right-align-div-elements
+- HTML id Attribute (w3schools) - https://www.w3schools.com/html/html_id.asp
+- hCard 1.0 (Microformats Wiki) - https://microformats.org/wiki/hcard
