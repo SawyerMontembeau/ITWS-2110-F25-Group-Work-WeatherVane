@@ -1,0 +1,146 @@
+.main,
+.main *{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #F0EAD6;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title {
+    font-family: 'Garamond', serif;
+    font-size: 32px;
+    text-align: left;
+    color: #060f14;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.preamble,
+.article,
+.amendment {
+    color: #060f14;
+    text-align: left;
+    font-family: 'Garamond', serif;
+    font-size: 21px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding: 20px 40px 20px 40px;
+    width: 50%;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: block;
+    background-color: #ead8c1;
+    border: #060f14 solid 2px;
+    float: left;
+    clear: left;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Collapsed state - only show title */
+.preamble.collapsed,
+.article.collapsed,
+.amendment.collapsed {
+    height: auto;
+    overflow: hidden;
+}
+
+.preamble.collapsed > *:not(h1),
+.article.collapsed > *:not(h1),
+.amendment.collapsed > *:not(h1) {
+    display: none;
+}
+
+.preamble.collapsed:hover,
+.article.collapsed:hover,
+.amendment.collapsed:hover {
+    background-color: #e0d0b5;
+}
+
+.preamble h1::after,
+.article h1::after,
+.amendment h1::after {
+    content: "»";
+    font-size: 0.8em;
+    color: #666;
+    float: right;
+    transition: transform 0.3s ease;
+    transform: rotate(-90deg);
+}
+
+.preamble.collapsed h1::after,
+.article.collapsed h1::after,
+.amendment.collapsed h1::after {
+    transform: rotate(90deg);
+}
+
+/* Analysis button styling */
+.analysis-btn {
+    background-color: #060f14;
+    color: #F0EAD6;
+    border: none;
+    padding: 8px 16px;
+    font-family: 'Garamond', serif;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.analysis-btn:hover {
+    background-color: #333;
+}
+
+/* analysis panel on right side */
+.analysis-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100vh;
+    background-color: #f8f6f0;
+    border-left: 3px solid #060f14;
+    padding: 20px;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+.analysis-panel.open {
+    transform: translateX(0);
+}
+
+.analysis-panel h2 {
+    font-family: 'Garamond', serif;
+    color: #060f14;
+    margin-top: 0;
+    border-bottom: 2px solid #060f14;
+    padding-bottom: 10px;
+}
+
+.analysis-content {
+    font-family: 'Garamond', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #060f14;
+}
+
+.close-analysis {
+    background-color: #060f14;
+    color: #F0EAD6;
+    border: none;
+    padding: 8px 16px;
+    font-family: 'Garamond', serif;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 20px;
+}
