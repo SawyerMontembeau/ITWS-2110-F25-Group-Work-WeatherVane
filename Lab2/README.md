@@ -14,14 +14,14 @@ Work Log:
 
  - Used CSS and javascript to make collapseable sections for each article and amendment, added an analysis button for each section that reveals the analysis of the specific section
 
- -Analysis of amendments: 1, 2, 3, & 5
+ - Analysis of amendments: 1, 2, 3, & 5
 
  - Used W3Schools for all css and javascript help
- src:
- http://w3schools.com/tags/tag_button.asp
- https://www.w3schools.com/css/default.asp
- https://www.w3schools.com/js/js_events.asp
 
- And past ITWS and Personal Projects
+ src:
+ - http://w3schools.com/tags/tag_button.asp
+ - https://www.w3schools.com/css/default.asp
+ - https://www.w3schools.com/js/js_events.asp
+ - And past ITWS and Personal Projects
 
 -----------------------------------------------
