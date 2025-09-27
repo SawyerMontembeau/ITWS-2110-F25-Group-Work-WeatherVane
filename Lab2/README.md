@@ -47,3 +47,25 @@ Sources:
 https://www.w3schools.com/cssref/pr_padding-bottom.php
 
 -----------------------------------------------
+Kat's README.md:
+-----------------------------------------------
+
+Work log:
+
+- Made use of Sawyer's initial groundwork (constitution.html formatting, JavaScripting, and CSS) to contribute my analysis.
+
+- Analyzed Articles II and V, as well as the 10th Amendment, offering a broadstrokes summary of each while providing a meaningful interpretation of their most important points.
+
+- I created history.html ("History of the Constitution" page) where I wrote a top-down summary of the most important aspects of the Constitution's history. Additionally, I included a pertinent quote by President Barack Obama at the bottom of the page.
+
+- I added a few additional CSS classes as was necessary (styling the history.html page, the clickable links in the header, and the quote)
+
+Overall, this lab was not terribly difficult. The only part that was considerably time-consuming was the analysis of the Constitution itself.
+Additionally, since I am generally the team member responsible for CSS styling and the like, it was a bit challenging to work around Sawyer's CSS. However, I feel like being able to understand and manipulate someone else's work, meanwhile preserving the spirit of their code/aesthetic choices, is an important skill for me to cultivate. This lab certainly helped me work on this.
+
+Resources:
+HTML/CSS Validator: https://validator.w3.org/
+AZ Quotes: https://www.azquotes.com/quote/1367261
+National Constitution Center: https://constitutioncenter.org/the-constitution
+CSS Transitions (w3 schools): https://www.w3schools.com/css/css3_transitions.asp
+-----------------------------------------------
