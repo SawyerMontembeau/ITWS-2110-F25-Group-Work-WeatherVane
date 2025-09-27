@@ -535,7 +535,100 @@
       switch(section) {
         case 'article1':
           title.textContent = 'Article I Analysis';
-          content.innerHTML = '<p>Analysis content for Article I will go here.</p>';
+          content.innerHTML = `
+            <p>The Congress has all legislative power (Section 1) and is broken down into two branches:</p>
+
+            <p><b>House of Representatives (Section 2):</b></p>
+            <div class="indent">
+              <p><b>Qualifications:</b></p>
+              <p>- 25 years old.</p>
+              <p>- U.S. citizen for 7 years.</p>
+              <p>- Live in the state you represent.</p>
+              <p><b>Composition:</b></p>
+              <p>- Members are chosen every 2 years by the people.</p>
+              <p>- A census happens every 10 years, and seats are based on state populations (free people + indentured servants + enslaved people − Indians not taxed).</p>
+              <p>- Each state gets at least 1 Representative, max 1 per 30,000 people. Vacancies are filled by a Writ of Election from the state governor.</p>
+              <p><b>Leadership:</b></p>
+              <p>- The House can choose its Speaker and other officers and can bring charges against federal officials (impeachment).</p>
+            </div>
+
+            <p><b>Senate (Section 3):</b></p>
+            <div class="indent">
+              <p><b>Qualifications:</b></p>
+              <p>- 30 years old.</p>
+              <p>- U.S. citizen for 9 years.</p>
+              <p>- Live in the state you represent.</p>
+              <p><b>Composition:</b></p>
+              <p>- Unlike the House, instead of composition being population-based, each state gets 2 Senators serving 6-year terms, each with one vote.</p>
+              <p>- ...</p>
+              <p><b>Leadership:</b></p>
+              <p>- ...</p>
+            </div>
+
+            <p><b>Elections, Meetings, Rules, and Proceedings (Sections 4 and 5):</b></p>
+            <div class="indent">
+              <p>- Each state's legislatures can set the times, places, and manner of congressional elections but Congress can change all these, except for the place of electing Senators.</p>
+              <p>- Congress has to meet once a year on the first Monday in December.</p>
+              <p>- Each House is the judge of its own members, and a majority in each House is required to do business - they can force absent members to attend.</p>
+              <p>- Each House can set its own rules and can expel a member with 2/3 vote. Each House also keeps a journal of proceedings (except secrets), and can demand that yes's/no's be recorded on that journal with a 1/5 vote.</p>
+              <p>- None of the Houses can adjourn for more than 3 days or move elsewhere without the consent of the other House. </p>
+            </div>
+
+            <p><b>Member Rights (Section 6):</b></p>
+            <div class="indent">
+              <p>- Senators and Representatives are paid by law from the U.S. Treasury.</p>
+              <p>- Members can't be arrested during sessions apart from treason, crimes, or causing disruptions. They can't be sued or prosecuted for what they say in Congress.</p>
+              <p>- No member can hold any civil office whose pay was increased during their term, and no one holding any other office can be a member.</p>
+            </div>
+
+
+            <p><b>How Laws are Passed (Section 7):</b></p>
+            <div class="indent">
+              <p>- All bills regarding revenue start in the House, but the Senate can amend them.</p>
+              <p>- A bill must be signed by the President (or left unattended for 10 days) to become a law. If vetoed, then a 2/3 vote in both Houses will overturn it and make it into a law.</p>
+              <p>- Any order/measure that requires both Houses to approve is sent to the President, and if vetoed, can still be passed with a 2/3 vote in both Houses, like a bill (stated above).</p>
+            </div>
+
+
+            <p><b>Powers of Congress (Section 8):</b></p>
+            <div class="indent">
+              <p><b>Financial/Monetary:</b></p>
+              <p>- Taxes, spending for general defense/welfare, and borrowing money.</p>
+              <p>- Controlling commerce between the states and foreign nations.</p>
+              <p>- Coining money and regulating its value.</p>
+              <p>- Punishing counterfeiting.</p>
+              <p><b>Military/Wartime:</b></p>
+              <p>- Declaring war, issuing letters of marque for privateering, and setting rules for captures.</p>
+              <p>- Raising and supporting armies (appropriations for no longer than 2 years), maintaining a navy, and setting rules for the armed forces.</p>
+              <p>- Calling forth militias to execute the laws, suppress insurrections, repel invasions, and disciplining them.</p>
+              <p>- The right to punish offenses on the high seas or against international law.</p>
+              <p><b>Other:</b></p>
+              <p>- Creating inferior courts below the Supreme Court.</p>
+              <p>- Establishing uniform naturalization and bankruptcy laws nationwide.</p>
+              <p>- Control over all post offices and post roads.</p>
+              <p>- Granting authors or inventors rights to their work — copyrights and patents.</p>
+              <p>- Governing Washington, D.C. and all federal properties.</p>
+              <p><b>Elastic Clause (Highly Important):</b></p>
+              <p>- Making all laws necessary and proper for executing the powers stated above. This is deliberately made vague in order to not restrict Congress’s lawmaking ability!</p>
+            </div>
+
+
+            <p><b>Restrictions on Congress and the States (Sections 9 and 10):</b></p>
+            <div class="indent">
+            <p><b>Congressional Restrictions:</b></p>
+            <p>- ...</p>
+            <p>- ...</p>
+            <p>- ...</p>
+            <p>- ...</p>
+            <p><b>State Restrictions:</b></p>
+            <p>- States can't make treaties or alliances with other nations. It would be bad if Texas and France were allied but the U.S. and France were at war...</p>
+            <p>- States also can't issue letters of marque, coin money, or make anything but gold/silver legal tender. That's Congress' job.</p>
+            <p>- States also can't impose any import/export duties apart from inspection fees without the approval of Congress. Any revenue from duties goes straight to the Treasury.</p>
+            <p>- Finally, States can't keep armies or navies around or engage in war unless they are invaded or in grave danger.</p>
+            </div>
+
+            <div class = "extra-white-space"></div>
+          `;
           break;
         case 'article2':
           title.textContent = 'Article II Analysis';

@@ -118,6 +118,14 @@ body {
     transform: translateX(0);
 }
 
+.indent {
+  padding-left: 50px;
+}
+
+.extra-white-space {
+    padding-bottom: 50px;
+}
+
 .analysis-panel h2 {
     font-family: 'Garamond', serif;
     color: #060f14;
