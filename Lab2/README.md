@@ -69,3 +69,16 @@ AZ Quotes: https://www.azquotes.com/quote/1367261
 National Constitution Center: https://constitutioncenter.org/the-constitution
 CSS Transitions (w3 schools): https://www.w3schools.com/css/css3_transitions.asp
 -----------------------------------------------
+MJ's README.md:
+-----------------------------------------------
+Work log:
+
+As with my other groupmates I used the HTML / CSS / JS structure that Sawyer provided. Adding my analysis felt intuitive, particularly with content.innerHTML and the += operator. I thought this was an efficient solution that saved the headache of placing all the text in one div.
+
+I was responsible for the analysis of Articles III and IV as well as Amendments VIII and IX. The amendments were short but I found that they could be extrapolated considerably. Article IV was the longest portion I had (with 4 sections), but not overwhelmingly so. I found it appropriate to keep in certain terminology (e.g. extradition, appellate jurisdiction) but explain them in simpler terms.
+
+My main point of reference was Congress.gov's Consitution Annotated website, and replicated the titles they had for each section of the articles. For example, they named Section 1 of Article IV "Full Faith and Credit Clause".
+
+Resources:
+For Constitution Annotated as well as historical backgrounds: https://constitution.congress.gov/
+Cornell Law School: https://www.law.cornell.edu/
