@@ -82,3 +82,18 @@ My main point of reference was Congress.gov's Consitution Annotated website, and
 Resources:
 For Constitution Annotated as well as historical backgrounds: https://constitution.congress.gov/
 Cornell Law School: https://www.law.cornell.edu/
+
+-----------------------------------------------
+Manny's README.md:
+-----------------------------------------------
+Work log:
+For for this project, I jumped into the same setup my group was using - the HTML, CSS, and JavaScript framework that Sawyer put together. It actually worked out pretty smoothly! I figured out how to add my sections using content.innerHTML and the += operator, which was a lifesaver. It meant I could just plug my text right into the page without dealing with a giant, messy HTML file.
+
+My job was to break down Article VI, Article VII, and the 6th and 7th Amendments. I had to really think about how to explain them clearly without getting too technical. Article VI was the big one with a few sections to get through. I tried to keep it more understandable by using plain language.
+
+For my research, I mostly went on Congress.gov Constitution Annotated site. it was helpful for getting the official info and section names right.
+
+All in all, it was cool to take these historic documents and make them actually understandable for people today. I think my sections turned out pretty clear and fit well with what the rest of the group was doing!
+
+Resources:
+Congress.gov 
