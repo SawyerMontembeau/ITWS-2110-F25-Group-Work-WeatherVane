@@ -1,4 +1,4 @@
-sri_lanka.json  lk.json
+sri_lanka.json    lk.json
 Ampara			    Ampāra
 Anuradhapura		Anurādhapura
 Badulla			    Badulla
