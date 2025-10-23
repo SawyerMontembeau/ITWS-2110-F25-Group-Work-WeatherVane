@@ -105,7 +105,7 @@ nav ul li a:hover {
     line-height: 1.8;
 }
 
-.btn {
+.button {
     display: inline-block;
     background-color: #81a1c1;
     color: white;
@@ -117,7 +117,7 @@ nav ul li a:hover {
     font-size: 1.1rem;
 }
 
-.btn:hover {
+.button:hover {
     background-color: #81a1c1;
 }
 
