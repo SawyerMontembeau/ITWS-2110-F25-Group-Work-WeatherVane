@@ -1,26 +1,26 @@
-sri_lanka.json          lk.json
-Ampara			Ampāra
+sri_lanka.json  lk.json
+Ampara			    Ampāra
 Anuradhapura		Anurādhapura
-Badulla			Badulla
-Batticaloa		-
-Colombo			Kŏḷamba
-Galle			-
-Gampaha			Gampaha
-Hambantota		Hambantŏṭa
-Jaffna			-
-Kalutara		Kaḷutara
-Kandy			-
-Kegalle			-
-Kilinochchi		Kilinŏchchi
-Kurunegala		Kuruṇægala	
-Mannar			
-Matale
-Matara
-Moneragala
-Mullaitivu
-NuwaraEliya
-Polonnaruwa
-Puttalam
-Ratnapura
-Trincomalee
-Vavuniya
+Badulla			    Badulla
+Batticaloa		  Maḍakalapuva
+Colombo			    Kŏḷamba
+Galle			      Gālla
+Gampaha			    Gampaha
+Hambantota		  Hambantŏṭa
+Jaffna			    Yāpanaya
+Kalutara		    Kaḷutara
+Kandy			      Mahanuvara
+Kegalle			    Kægalla
+Kilinochchi		  Kilinŏchchi
+Kurunegala		  Kuruṇægala	
+Mannar			    Mannārama
+Matale          Mātale
+Matara          Mātara
+Moneragala      Mŏṇarāgala  
+Mullaitivu      Mulativ
+NuwaraEliya     Nuvara Ĕliya
+Polonnaruwa     Pŏḷŏnnaruva
+Puttalam        Puttalama
+Ratnapura       Ratnapura
+Trincomalee     Trikuṇāmalaya
+Vavuniya        Vavuniyāva
