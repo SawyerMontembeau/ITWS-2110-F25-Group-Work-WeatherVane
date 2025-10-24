@@ -25,12 +25,18 @@ regionNames.Ratnapura = "Ratnapura";
 regionNames.Trincomalee = "Trikuṇāmalaya";
 regionNames.Vavuniya = "Vavuniyāva";
 
-document.addEventListener('mapReady', (event) => {
+document.addEventListener('dataReady', (event) => {
+  console.log("dataReady! Coloring regions...");
   const { regions } = event.detail;
-  console.log("Hello!");
+  const { jsonData } = event.detail;
   for(const region in regionNames) {
-    console.log(regionNames[region]);
-    regions[regionNames[region]].setStyle({color: '#FF0000'});
+    //console.log(regionNames[region]);
+    regions[regionNames[region]].setStyle({color: '#ff5599ff'});
   }
-  regions['Mulativ'].setStyle({color: '#FF0000'});
+  console.log("HELLO FROM MAPCOLOR");
+  const data315 = jsonData["315.0"];
+  for (const [region, data] of Object.entries(data315)) {
+      console.log(region, data["airTemp_F"]["mean"]);
+  }
+
 });
