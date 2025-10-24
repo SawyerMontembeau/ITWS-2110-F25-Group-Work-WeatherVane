@@ -27,7 +27,7 @@ body {
 
 /* header styles */
 header {
-    background-color: #3b4252;
+    background-color: black;
     color: white;
     padding: 1rem 0;
     border-bottom: 3px solid #81a1c1;
@@ -76,7 +76,8 @@ nav ul li a:hover {
 
 /* hero section */
 .hero {
-    background: #2e3440;
+    background: linear-gradient(rgba(46, 52, 64, 0.5), rgba(46, 52, 64, 1)), url("../resources/images/landing-bg.jpg");
+    
     background-size: cover;
     background-position: center;
     color: white;
@@ -124,7 +125,7 @@ nav ul li a:hover {
 
 /* simple footer */
 footer {
-    background-color: #3b4252;
+    background-color: black;
     color: white;
     padding: 1.5rem 0;
     margin-top: auto;
