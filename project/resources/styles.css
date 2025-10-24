@@ -41,7 +41,7 @@ header {
 
 .logo {
     display: flex;
-    align-items: center;
+    margin-left: 15px;
 }
 
 .logo img {
@@ -118,10 +118,11 @@ nav ul li a:hover {
 }
 
 .button:hover {
-    background-color: #81a1c1;
+    background-color: #000;
 }
 
-/* simple Footer */
+
+/* simple footer */
 footer {
     background-color: #3b4252;
     color: white;
@@ -133,6 +134,14 @@ footer {
     text-align: center;
     color: #ddd;
     font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #81a1c1;
 }
 
 /* responsive */
