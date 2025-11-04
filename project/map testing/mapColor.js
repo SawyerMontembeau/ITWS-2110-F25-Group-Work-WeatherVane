@@ -65,7 +65,7 @@ document.addEventListener('dataReady', (event) => {
       const x = parseFloat(data["airTemp_F"]["mean"]);
       const mixed = from.mix(to, mapTo(min, max, x));
       console.log(region, data["airTemp_F"]["mean"]);
-      regions[regionNames[region]].setStyle({color: mixed.to("srgb").toString({ format: "hex" })});
+      regions[regionNames[region]].setStyle({color: mixed.to("srgb").toString({ format: "hex" }), opacity: 1, fillOpacity: 0.5});
   }
 
 });
