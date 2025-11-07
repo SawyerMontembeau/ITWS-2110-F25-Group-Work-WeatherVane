@@ -24,7 +24,7 @@
             },
             "Lecture 6": {
                 "Title": "AJAX & JSON",
-                "Description": "Covered basic JSON structure (Collections and Arrays), all possible JSON values, and parsing it. Then, covered what AJAX is and how to use basic jQuery functions alongside it. Finally, covered how to use XMLHttpRequest."
+                "Description": "Covered basic JSON structure (collections and arrays), all possible JSON values, and parsing it. Then, covered what AJAX is and how to use basic jQuery functions alongside it. Finally, covered how to use XMLHttpRequest."
             },
             "Lecture 7": {
                 "Title": "APIs",
@@ -32,23 +32,23 @@
             },
             "Lecture 8": {
                 "Title": "Front End Optimizations",
-                "Description": "Covered how to measure/care about performance, efficient/minimizing markups, having CSS at the top of the page, JavaScript after HTML, ETags, Expires headers, Image Sprites, CDNs, event delegation, GET instead of POST, polling, and the 7 key factors of UX design."
+                "Description": "Covered how to measure/care about performance, efficient/minimal markup, having CSS at the top of the page, JavaScript after HTML, ETags, Expires headers, image sprites, CDNs, event delegation, GET instead of POST, polling, and the 7 key factors of UX design."
             },
             "Lecture 9": {
                 "Title": "Intro to PHP",
-                "Description": "..."
+                "Description": "Covered PHP page anatomy, basic syntax, variables/constants, data types, literals, arrays, operators, control structures, functions, objects, classes, inheritance, and basic input/output."
             },
             "Lecture 10": {
-                "Title": "PHP and mySQL",
-                "Description": "..."
+                "Title": "PHP and MySQL",
+                "Description": "Covered user access, passwords, user types, connecting to databases, PDOs, queries, prepared statements, SQL injections, and starting/ending sessions."
             },
             "Lecture 11": {
-                "Title": "...",
-                "Description": "..."
+                "Title": "More PHP: Interfaces, Abstract Classes, Polymorphism",
+                "Description": "Covered PHP internals, function overriding/overloading, public/private/protected members, polymorphism, interfaces, abstract classes, and traits."
             },
             "Lecture 12": {
-                "Title": "...",
-                "Description": "..."
+                "Title": "Authentication & Authorization",
+                "Description": "Covered what they are and the differences between them. Also covered using hash functions for storing passwords, rainbow tables, password salting, and permission-based/role-based authorization."
             }
         
         },
@@ -60,10 +60,10 @@
             },
             "Lab 2": {
                 "Title": "Constitution Day Lab",
-                "Description": "Created an interactive Constitution website and did analysis on Articles I-VII and Ammendments 1-10."
+                "Description": "Created an interactive Constitution website and conducted analysis on Articles I-VII and Amendments 1-10."
             },
             "Lab 3": {
-                "Title": "JavaScript, AJAX, JSON, using APIs",
+                "Title": "JavaScript, AJAX, JSON, Using APIs",
                 "Description": "Connected to the OpenWeatherMap API and one other API and created interactive websites about information they both provide."
             },
             "Lab 4": {
@@ -80,7 +80,7 @@
             },
             "Lab 7": {
                 "Title": "Remaking LMS",
-                "Description": "..."
+                "Description": "First created a new database and three tables: courses, students, and grades. Added 4 students, 4 courses, and 10 grades into those tables and added some sections while listing other information. Then, created a JSON document containing titles/descriptions of all the labs and lectures in the course so far. Finally, developed both a front-end and back-end to browse the contents of the course."
             }
 
         }
