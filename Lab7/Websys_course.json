@@ -1,0 +1,72 @@
+{
+  "Websys_course": {
+        "Lectures": {
+
+            "Lecture 1": {
+                "Title": "",
+                "Description": "..."
+            },
+            "Lecture 2": {
+                "Title": "...",
+                "Description": "..."
+            },
+            "Lecture 3": {
+                "Title": "...",
+                "Description": "..."
+            },
+            "Lecture 4": {
+                "Title": "...",
+                "Description": "..."
+            },
+            "Lecture 5": {
+                "Title": "...",
+                "Description": "..."
+            },
+            "Lecture 6": {
+                "Title": "...",
+                "Description": "..."
+            },
+            "Lecture 7": {
+                "Title": "...",
+                "Description": "..."
+            },
+            "Lecture 8": {
+                "Title": "...",
+                "Description": "..."
+            }
+        
+        },
+        "Labs": {
+
+            "Lab 1": {
+                "Title": "Portfolio Website",
+                "Description": "Created a group portfolio page that included team name, slogan, logo, and previous works. Also created individual resume pages and implemented some hCard microformat conventions on contact information."
+            },
+            "Lab 2": {
+                "Title": "Constitution Day Lab",
+                "Description": "Created an interactive Constitution website and did analysis on Articles I-VII and Ammendments 1-10."
+            },
+            "Lab 3": {
+                "Title": "JavaScript, AJAX, JSON, using APIs",
+                "Description": "Connected to the OpenWeatherMap API and one other API and created interactive websites about information they both provide."
+            },
+            "Lab 4": {
+                "Title": "Lab 3 with AI",
+                "Description": "Remade our Lab 3 using only AI-generated code, images, text, etc. Logged our prompt usage in our README file."
+            },
+            "Lab 5": {
+                "Title": "Bloomberg Terminal",
+                "Description": "Experimented on many different functions and features of the Bloomberg Terminals and wrote a one-page reflection on it in Part 1. In Part 2, wrote a one-page summary of integrating its financial data onto class projects."
+            },
+            "Lab 6": {
+                "Title": "PHP, OOP, and Input Handling",
+                "Description": "Created a basic calculator using PHP and worked on classes/subclasses of Addition, Multiplication, Subtraction, and Division."
+            },
+            "Lab 7": {
+                "Title": "Remaking LMS",
+                "Description": "..."
+            }
+
+        }
+    }
+}
