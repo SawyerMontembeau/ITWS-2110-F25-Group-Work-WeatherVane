@@ -3,34 +3,50 @@
         "Lectures": {
 
             "Lecture 1": {
-                "Title": "",
-                "Description": "..."
+                "Title": "Introduction",
+                "Description": "Covered class agenda, syllabus, tools used in class, group project, and expectations moving forward."
             },
             "Lecture 2": {
-                "Title": "...",
-                "Description": "..."
+                "Title": "The Basics",
+                "Description": "Covered servers, URIs/URLs, IP addresses, DNS, HTTP/HTTPS, SSL certificates, HTTP methods and status codes, idempotence, and the three-tier model."
             },
             "Lecture 3": {
-                "Title": "...",
-                "Description": "..."
+                "Title": "CSS Part 1",
+                "Description": "Covered CSS anatomy, selectors, tags, attributes, attribute/pseudo selectors, formatting, display, visibility, box model, positioning, and inheritance."
             },
             "Lecture 4": {
-                "Title": "...",
-                "Description": "..."
+                "Title": "CSS Part 2",
+                "Description": "Covered CSS combinators, animations, minification, and bootstrap."
             },
             "Lecture 5": {
-                "Title": "...",
-                "Description": "..."
+                "Title": "JavaScript",
+                "Description": "Covered what JS is, how it's useful, and adding it to sites. Then, went over comments, objects, variables, values, operators, control structures, and functions. Finally, reviewed DOM and event handling."
             },
             "Lecture 6": {
-                "Title": "...",
-                "Description": "..."
+                "Title": "AJAX & JSON",
+                "Description": "Covered basic JSON structure (Collections and Arrays), all possible JSON values, and parsing it. Then, covered what AJAX is and how to use basic jQuery functions alongside it. Finally, covered how to use XMLHttpRequest."
             },
             "Lecture 7": {
+                "Title": "APIs",
+                "Description": "Covered API definition, SOAP, and REST. For REST, went over the 6 constraints (universal interface, stateless, cacheable, client-server, layered system, and code on demand). Then, looked at some real-world API examples."
+            },
+            "Lecture 8": {
+                "Title": "Front End Optimizations",
+                "Description": "Covered how to measure/care about performance, efficient/minimizing markups, having CSS at the top of the page, JavaScript after HTML, ETags, Expires headers, Image Sprites, CDNs, event delegation, GET instead of POST, polling, and the 7 key factors of UX design."
+            },
+            "Lecture 9": {
+                "Title": "Intro to PHP",
+                "Description": "..."
+            },
+            "Lecture 10": {
+                "Title": "PHP and mySQL",
+                "Description": "..."
+            },
+            "Lecture 11": {
                 "Title": "...",
                 "Description": "..."
             },
-            "Lecture 8": {
+            "Lecture 12": {
                 "Title": "...",
                 "Description": "..."
             }
