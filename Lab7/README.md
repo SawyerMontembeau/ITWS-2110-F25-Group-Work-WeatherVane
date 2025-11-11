@@ -1,0 +1,24 @@
+## Part 2 Commands
+```sql
+-- Step 1.
+ALTER TABLE students
+ADD COLUMN street VARCHAR(100) NOT NULL,
+ADD COLUMN city VARCHAR(100) NOT NULL,
+ADD COLUMN state VARCHAR(100) NOT NULL,
+ADD COLUMN zip INT(5) NOT NULL;
+
+-- Step 2.
+ALTER TABLE courses 
+ADD COLUMN section INT(3) NOT NULL, 
+ADD COLUMN year YEAR NOT NULL;
+
+-- Step 3.
+CREATE TABLE grades (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    crn INT,
+    RIN INT,
+    grade INT(3) NOT NULL,
+	FOREIGN KEY (crn) REFERENCES courses(crn),
+    FOREIGN KEY (RIN) REFERENCES students(RIN)
+);
+```
