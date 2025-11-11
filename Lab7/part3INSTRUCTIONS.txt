@@ -1,9 +1,0 @@
-END OF PART 3:
-
-
-in courses SQL:
-
-ALTER TABLE courses ADD COLUMN course_data JSON;
-
-
-then go to courses table and edit web systems developement and past the contents of the json in the correct box

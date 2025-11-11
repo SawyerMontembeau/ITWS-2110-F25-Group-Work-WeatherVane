@@ -44,7 +44,7 @@ INSERT INTO `courses` (`crn`, `prefix`, `number`, `title`, `section`, `year`) VA
 (72024, 'CSCI', 1200, 'Data Structures', 1, 2025),
 (72433, 'CSCI', 4430, 'Programming Languages', 1, 2025),
 (72742, 'ITWS', 1100, 'Intro to ITWS', 1, 2025),
-(73048, 'ITWS', 2110, 'Web Systems Developement', 1, 2025);
+(30578, 'CSCI', 2300, 'Introduction to Algorithms', 1, 2025);
 
 --
 -- Indexes for dumped tables
@@ -56,6 +56,12 @@ INSERT INTO `courses` (`crn`, `prefix`, `number`, `title`, `section`, `year`) VA
 ALTER TABLE `courses`
   ADD PRIMARY KEY (`crn`);
 COMMIT;
+
+INSERT INTO `courses` (`crn`, `prefix`, `number`, `title`, `section`, `year`) VALUES
+(73048, 'ITWS', 2110, 'Web Sys', 1, 2025);
+
+ALTER TABLE courses ADD COLUMN course_data JSON;
+UPDATE courses SET course_data = LOAD_FILE('C:/xampp/tmp/Websys_course.json') WHERE crn = 73048;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
