@@ -53,6 +53,11 @@ header {
     font-weight: 500;
 }
 
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
 nav ul {
     display: flex;
     list-style: none;

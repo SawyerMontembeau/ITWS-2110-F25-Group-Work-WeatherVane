@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatherVanes</title>
     <link rel="stylesheet" href="../resources/styles.css">
+    <link rel="stylesheet" href="styles/register.css">
 </head>
 <body>
     <!-- header -->
@@ -12,19 +13,14 @@
         <div class="container header-content">
             <div class="logo">
                 <!-- logo goes here? -->
-                 WeatherVanes | Sign Up
-            </div> 
-            <nav>
-                <ul>
-                    <li>Already have an account? <a href="login.html">Log In</a></li>
-                </ul>
-            </nav>
+                 <a href="../pages/index.html">WeatherVanes</a> | Sign Up
+            </div>
         </div>
     </header>
     
     <!-- hero section -->
     <section class="hero">
-        <div class="container hero-content">
+        <div class="signUpContainer">
             <h2>Welcome!</h2>
             <form id="signup">
                 <input type="email" name="email" id="email" placeholder="Email Address" required>
@@ -33,8 +29,9 @@
                 <br>
                 <input type="password" name="password" id="password" placeholder="Password" required>
                 <br>
-                <button type="submit">Sign Up</button>
+                <button type="submit" id="signUp"">Sign Up</button>
             </form>
+            <p>Already have an account? <a href="login.html">Log In</a></p>
         </div>
     </section>
 

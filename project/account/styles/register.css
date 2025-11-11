@@ -1,0 +1,44 @@
+.hero {
+    display: flex;
+    justify-content: center;   /* horizontal centering */
+    align-items: center;       /* vertical centering */
+}
+
+.logInContainer, .signUpContainer {
+    background: rgb(241, 238, 238);
+    width: 900px;
+    border-radius: 15px;
+    height: 500px;
+}
+
+#email, #password, #fName{
+    padding: 10px;
+    width: 400px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+#logIn, #signUp {
+    padding: 10px;
+    width: 400px;
+    border-radius: 3px;
+    margin-bottom: 6px;
+    background-color: rgb(134, 134, 212);
+    color: white;
+    font-size: 18px;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+#logIn:hover, #signUp:hover {
+    transform: scale(0.98);
+    background-color: rgb(126, 126, 187);
+}
+
+.logInContainer h2, .signUpContainer h2 {
+    margin-top: 90px;
+    color: black;
+}
+
+.logInContainer p, .signUpContainer p {
+    color: black;
+}
