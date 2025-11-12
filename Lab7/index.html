@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Course Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">🕸 Spooky WebSys Info 🕸</h1>
+                <div class="controls">
+                <button id="refresh-btn" class="refresh-button">
+                    <span class="icon">⟳</span> Refresh
+                </button>
+            </div>
+        </header>
+        
+        <main class="content-area">
+            <nav class="navigation-panel">
+                <h2 class="panel-title">Course Content</h2>
+                <div id="content-list" class="content-list">
+                    <!-- reads from the JSON info-->
+                </div>
+            </nav>
+            
+            <section class="preview-panel">
+                <div id="preview-content" class="preview-content">
+                    <div class="placeholder">
+                        <p>Select a course item to view its info</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
