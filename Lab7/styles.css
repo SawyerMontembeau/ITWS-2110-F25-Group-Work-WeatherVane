@@ -69,14 +69,14 @@ header {
 }
 
 
-/* Main content layout */
+/* main content layout */
 .content-area {
     display: flex;
     gap: 20px;
     min-height: 70vh;
 }
 
-/* Navigation panel */
+/* navigation panel */
 .navigation-panel {
     flex: 0 0 300px;
     background-color: #2a0c24;
