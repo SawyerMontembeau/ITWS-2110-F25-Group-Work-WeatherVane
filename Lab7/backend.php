@@ -43,6 +43,7 @@ function archiveCourseContent($pdo) {
         if (!$course) {
             echo json_encode(['error' => 'Web Sys course not found in database']);
             return;
+        }
 
         $jsonFile = 'Websys_course.json'; // Make sure this file is in the same directory
         
